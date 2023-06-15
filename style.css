@@ -1,0 +1,110 @@
+.navigation {
+    display: flex;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    
+    justify-content: space-between;
+    
+    background-color: #252525;
+
+}
+
+footer {
+    
+    height: 100px;
+    width: 100%;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: right;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+
+.loupe {
+width: 25px;
+margin-right: 10%;
+    
+}
+
+.index {
+    color: #F76D36;
+}
+
+.marge {
+    background-color: black;
+    height: 50px;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: 68px;
+    font-weight: bold;
+ 
+}
+
+.onglet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.banner {
+    background-image: url(images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    
+ 
+}
+
+.outstanding, .coffee, .bla-bla{
+    
+    justify-content: left;
+    padding-left: 250px;
+    align-items: left;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+   
+    color: #252525;
+    line-height: 25px;
+}
+
+.coffee {
+    font-weight: bold;
+    color: white
+    
+}
+
+.bla-bla {
+ 
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+   
+}
+
+.btn {
+    height: 100px;
+    width: 280px;
+    color: white;
+    background-color: black;
+    margin-left: 250px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   
+  
+}
+

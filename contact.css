@@ -1,0 +1,99 @@
+.banner {
+    background-image: url(images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    
+ 
+}
+
+footer {
+    
+    height: 100px;
+    width: 100%;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: right;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+
+form {
+    margin-left: 20%;
+    width: 100%;
+    max-width: 600px;
+    padding: 10em;
+  
+}
+
+
+
+.titreform {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    color: aliceblue;
+    text-underline-position: under;
+    text-decoration: solid underline ;
+
+}
+
+.inputBox {
+   
+    margin-bottom: 2em;
+    
+    
+}
+
+input {
+    resize: both; /* Permet à l'utilisateur de redimensionner à la fois verticalement et horizontalement */
+    height: 50px; 
+    width: 60%;
+    font-size: 28px;
+}
+
+textarea {
+    resize: both; /* Permet à l'utilisateur de redimensionner à la fois verticalement et horizontalement */
+    height: 150px; 
+    width: 60%; 
+    /* affiche le mot "Message" au top de la case et non en bas */
+    vertical-align: top;
+    font-size: 28px;
+  }
+
+ 
+
+  
+.textcase {
+  
+    padding: 1.5em;
+
+    /* agrandir la police*/
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    /* centrer verticalement */
+    vertical-align: middle;
+   
+   
+  
+}
+
+.btn {
+    background-color: #360A02; 
+    /* centrer le bouton dans le formulaire */
+ 
+    margin-top: 5%;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 8px 8px 0px #252525;
+}

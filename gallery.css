@@ -1,0 +1,69 @@
+
+footer {
+    
+    height: 100px;
+    width: 100%;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: right;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+
+
+table {
+    table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+td {
+
+  text-align: center;
+  padding: 10px;    
+  
+}   
+
+/* retaille les images tagguée pour qu'elles soient de la même taille mais sans garder les proportions */
+#taillimg {
+    width: 700px;
+    height: 525px;
+}
+
+
+/* faire en sorte que les images prennent tout l'espace de la cellule - mais elles gardent aussi leurs proportions
+img {
+    width: 100%;
+    height: 100%;
+}
+*/
+
+button {
+    width: 120px;
+    height: 50px;
+    background-color: #360A02;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+
+/* mettre le button à droite de la page */
+    margin-left: 90%;
+    margin-top: 50px;
+
+/* faire un effet d'ombre sur le bouton */
+    box-shadow: 8px 8px 0px #252525;
+    
+}
+
+/* changement de couleur quand la souris passe sur le bouton */
+
+button:hover {
+    background-color: #F5D49E;
+    color: F76D36;
+    box-shadow: 8px 8px 0px #252525;
+}
